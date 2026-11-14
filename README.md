@@ -2,7 +2,7 @@
 
 > Dokumen desain UI untuk seluruh halaman project eCom.
 > Acuan: `prisma/schema.prisma`, `fitur.txt`, dan implementasi Bagian 1–4.
-> Pembagian tugas: **Morgan** (Bagian 6–10), **Fadhly** (Bagian 11–12), **Ahmad** (Bagian 13 + polish).
+> Pembagian tugas: **Morgan** (Bagian 6–10), **Ahhmad** (Bagian 11–12), **Fadhly** (Bagian 13 + polish).
 
 Status halaman: ✅ = sudah dibangun · 🔜 = akan dibangun
 
@@ -412,7 +412,7 @@ Riwayat:                              Detail pesanan:
 
 ---
 
-## 1️⃣1️⃣ Dashboard Penjualan Petani — `/dashboard-petani/pesanan` 🔜 (Fadhly)
+## 1️⃣1️⃣ Dashboard Penjualan Petani — `/dashboard-petani/pesanan` 🔜 (Ahhmad)
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -440,7 +440,7 @@ Riwayat:                              Detail pesanan:
 
 ---
 
-## 1️⃣2️⃣ Langganan — `/langganan` 🔜 (Fadhly)
+## 1️⃣2️⃣ Langganan — `/langganan` 🔜 (Ahhmad)
 
 ```
 ┌──────────────────────────────────────────────────────────┐
@@ -472,7 +472,7 @@ Riwayat:                              Detail pesanan:
 
 ---
 
-## 1️⃣3️⃣ Chatbot — floating widget, semua halaman 🔜 (Ahmad)
+## 1️⃣3️⃣ Chatbot — floating widget, semua halaman 🔜 (Fadhly)
 
 ```
                                           ┌──────────────────┐
@@ -519,7 +519,7 @@ Riwayat:                              Detail pesanan:
 
 ## 🔄 Titik Integrasi Antar-Anggota
 
-1. **`server/utils/createOrder.ts`** — satu fungsi pembuat pesanan (transaction: validasi stok → pesanan + barang + riwayat → kurangi stok). Morgan pakai untuk checkout manual, Fadhly untuk langganan otomatis.
+1. **`server/utils/createOrder.ts`** — satu fungsi pembuat pesanan (transaction: validasi stok → pesanan + barang + riwayat → kurangi stok). Morgan pakai untuk checkout manual, Ahhmad untuk langganan otomatis.
 2. **`schema.prisma`, `Header.vue`, `auth.d.ts`** — jangan diedit bersamaan; sepakati dulu di grup jika perlu perubahan.
 3. **Kontrak endpoint** — respons `{ ok: true }` + toast, error via `createError` dengan `statusMessage` Bahasa Indonesia.
 4. **Format harga** — kirim `Number`, tampil `toLocaleString('id-ID')`.
