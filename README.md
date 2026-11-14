@@ -310,7 +310,7 @@ Status halaman: ✅ = sudah dibangun · 🔜 = akan dibangun
 
 ---
 
-## 8️⃣ Keranjang — `/keranjang` 🔜 (Morgan)
+## 8️⃣ Keranjang — `/keranjang` 🔜 (Ahmad)
 
 ```
 ┌──────────────────────────────────────────────────────────┐
@@ -346,7 +346,7 @@ Status halaman: ✅ = sudah dibangun · 🔜 = akan dibangun
 
 ---
 
-## 9️⃣ Checkout — `/checkout` 🔜 (Morgan, middleware `konsumen`)
+## 9️⃣ Checkout — `/checkout` 🔜 (Ahmad, middleware `konsumen`)
 
 ```
 ┌──────────────────────────────────────────────────────────┐
@@ -383,7 +383,7 @@ Status halaman: ✅ = sudah dibangun · 🔜 = akan dibangun
 
 ---
 
-## 🔟 Riwayat & Detail Pesanan — `/pesanan` & `/pesanan/[id]` 🔜 (Morgan)
+## 🔟 Riwayat & Detail Pesanan — `/pesanan` & `/pesanan/[id]` 🔜 (Ahmad)
 
 ```
 Riwayat:                              Detail pesanan:
@@ -412,7 +412,7 @@ Riwayat:                              Detail pesanan:
 
 ---
 
-## 1️⃣1️⃣ Dashboard Penjualan Petani — `/farmer-dashboard/pesanan` 🔜 (Ahhmad)
+## 1️⃣1️⃣ Dashboard Penjualan Petani — `/farmer-dashboard/pesanan` 🔜 (Fadhly)
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -440,7 +440,7 @@ Riwayat:                              Detail pesanan:
 
 ---
 
-## 1️⃣2️⃣ Langganan — `/langganan` 🔜 (Ahhmad)
+## 1️⃣2️⃣ Langganan — `/langganan` 🔜 (Fadhly)
 
 ```
 ┌──────────────────────────────────────────────────────────┐
