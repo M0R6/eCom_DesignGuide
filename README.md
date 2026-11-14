@@ -171,7 +171,7 @@ Status halaman: ✅ = sudah dibangun · 🔜 = akan dibangun
 
 ---
 
-## 4️⃣ Dashboard Petani — CRUD Hasil Panen — `/dashboard-petani/produk` ✅
+## 4️⃣ Dashboard Petani — CRUD Hasil Panen — `/farmer-dashboard/produk` ✅
 
 ```
 ┌──────────────────────────────────────────────────────┐
@@ -205,7 +205,7 @@ Status halaman: ✅ = sudah dibangun · 🔜 = akan dibangun
 
 ---
 
-## 5️⃣ Form Posting/Edit Panen — `/dashboard-petani/produk/baru` & `.../[id]/edit` ✅
+## 5️⃣ Form Posting/Edit Panen — `/farmer-dashboard/produk/baru` & `.../[id]/edit` ✅
 
 ```
 ┌──────────────────────────────────────────────────┐
@@ -412,7 +412,7 @@ Riwayat:                              Detail pesanan:
 
 ---
 
-## 1️⃣1️⃣ Dashboard Penjualan Petani — `/dashboard-petani/pesanan` 🔜 (Ahhmad)
+## 1️⃣1️⃣ Dashboard Penjualan Petani — `/farmer-dashboard/pesanan` 🔜 (Ahhmad)
 
 ```
 ┌────────────────────────────────────────────────────────────┐
